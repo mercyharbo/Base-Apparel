@@ -1,0 +1,64 @@
+body {
+    overflow: hidden;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 3% 10%;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    padding: 8% 10%;
+}
+
+.display-4 {
+    text-transform: uppercase;
+    font-family: alata;
+    letter-spacing: 10px;
+    color: black;
+    font-size: 3rem;
+}
+
+.purple {
+    color: #ffc7c7;
+}
+
+p {
+    width: 430px;
+    line-height: 2;
+    color: #da8686;
+}
+
+.input-group {
+    width: 70%;
+    border-radius: 10px;
+}
+
+img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+@media (max-width: 1021px) {
+    body {
+        text-align: center;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    p {
+        padding: 0;
+        width: auto;
+
+    }
+}
